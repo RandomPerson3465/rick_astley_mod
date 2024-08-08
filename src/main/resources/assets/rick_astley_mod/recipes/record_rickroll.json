@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"X": {
+			"item": "rick_astley_mod:rickroll_ingot"
+		},
+		"#": [
+			{
+				"item": "minecraft:record_13"
+			},
+			{
+				"item": "minecraft:record_cat"
+			},
+			{
+				"item": "minecraft:record_blocks"
+			},
+			{
+				"item": "minecraft:record_chirp"
+			},
+			{
+				"item": "minecraft:record_far"
+			},
+			{
+				"item": "minecraft:record_mall"
+			},
+			{
+				"item": "minecraft:record_mellohi"
+			},
+			{
+				"item": "minecraft:record_stal"
+			},
+			{
+				"item": "minecraft:record_strad"
+			},
+			{
+				"item": "minecraft:record_ward"
+			},
+			{
+				"item": "minecraft:record_11"
+			},
+			{
+				"item": "minecraft:record_wait"
+			}
+		]
+	},
+	"result": {
+		"item": "rick_astley_mod:record_rickroll",
+		"count": 1
+	}
+}

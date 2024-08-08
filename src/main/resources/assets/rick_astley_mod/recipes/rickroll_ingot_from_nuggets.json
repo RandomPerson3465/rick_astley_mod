@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "rick_astley_mod:rickroll_ingot",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "rick_astley_mod:rickroll_nugget"
+		}
+	},
+	"result": {
+		"item": "rick_astley_mod:rickroll_ingot",
+		"count": 1
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "rick_astley_mod:rickroll_ingot",
+	"ingredients": [
+		{
+			"item": "rick_astley_mod:rickroll_block"
+		}
+	],
+	"result": {
+		"item": "rick_astley_mod:rickroll_ingot",
+		"count": 9
+	}
+}

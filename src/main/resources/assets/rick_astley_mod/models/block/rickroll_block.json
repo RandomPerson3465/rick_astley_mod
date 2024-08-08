@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "rick_astley_mod:blocks/rickroll_block"
+    }
+}

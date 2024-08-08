@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "rick_astley_mod:items/rickroll_pickaxe"
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"record_rickroll": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "rick_astley_mod:record/rickroll",
+				"stream": true
+			}
+		]
+	}
+}
