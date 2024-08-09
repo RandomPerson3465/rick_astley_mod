@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "rick_astley_mod:items/rickroll_qr_code"
+    },
+	"display": {
+		"fixed": {
+			"rotation": [ 0, 180, 0 ],
+		     "scale": [ 2, 2, 2 ]
+		}
+	}
+}

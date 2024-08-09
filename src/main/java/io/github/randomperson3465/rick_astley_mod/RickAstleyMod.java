@@ -1,5 +1,7 @@
 package io.github.randomperson3465.rick_astley_mod;
 
+import io.github.randomperson3465.rick_astley_mod.recipes.ModRecipes;
+import io.github.randomperson3465.rick_astley_mod.world.gen.RickrollOreGenerator;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import net.minecraft.creativetab.CreativeTabs;
@@ -8,6 +10,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = RickAstleyMod.MODID, name = RickAstleyMod.NAME, version = RickAstleyMod.VERSION, acceptedMinecraftVersions = RickAstleyMod.MC_VERSION)
 public class RickAstleyMod {
@@ -28,12 +31,13 @@ public class RickAstleyMod {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		LOGGER.info(RickAstleyMod.NAME + " says hi!");
+		GameRegistry.registerWorldGenerator(new RickrollOreGenerator(), 0);
+		ModRecipes.initSmelting();
 	}
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-        
+		
 	}
 
 }

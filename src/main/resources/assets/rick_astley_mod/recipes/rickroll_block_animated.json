@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:diamond"
+		},
+		"X": {
+			"item": "rick_astley_mod:rickroll_block"
+		}
+	},
+	"result": {
+		"item": "rick_astley_mod:rickroll_block_animated",
+		"count": 1
+	}
+}

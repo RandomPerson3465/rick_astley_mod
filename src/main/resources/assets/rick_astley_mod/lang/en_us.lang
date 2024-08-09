@@ -1,6 +1,7 @@
 item.record.rick_astley_mod_rickroll.desc=Rick Astley - Never Gonna Give You Up (Note Block Cover)
 item.rick_astley_mod.rick_astley.name=Rick Astley
 item.rick_astley_mod.rickroll.name=Rickroll
+item.rick_astley_mod.rickroll_animated.name=Animated Rickroll
 item.rick_astley_mod.rickroll_axe.name=Rickroll Axe
 item.rick_astley_mod.rickroll_boots.name=Rickroll Boots
 item.rick_astley_mod.rickroll_chestplate.name=Rickroll Chestplate
@@ -12,5 +13,9 @@ item.rick_astley_mod.rickroll_nugget.name=Rickroll Nugget
 item.rick_astley_mod.rickroll_pickaxe.name=Rickroll Pickaxe
 item.rick_astley_mod.rickroll_shovel.name=Rickroll Shovel
 item.rick_astley_mod.rickroll_sword.name=Rickroll Sword
+item.rick_astley_mod.rickroll_qr_code.name=Rickroll QR Code
 itemGroup.rick_astley_mod=Rick Astley Mod
 tile.rick_astley_mod.rickroll_block.name=Rickroll Block
+tile.rick_astley_mod.rickroll_block_animated.name=Animated Rickroll Block
+tile.rick_astley_mod.rickroll_ore.name=Rickroll Ore
+tile.rick_astley_mod.rickroll_qr_code_block.name=Rickroll QR Code Block

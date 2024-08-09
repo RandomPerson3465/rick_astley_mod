@@ -8,10 +8,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 public class ModItems {
 
 	public static final Item RICKROLL = null;
+	public static final Item RICKROLL_ANIMATED = null;
 	public static final Item RICKROLL_INGOT = null;
 	public static final Item RICKROLL_NUGGET = null;
 	public static final Item RECORD_RICKROLL = null;
 	public static final Item RICK_ASTLEY = null;
+	public static final Item RICKROLL_QR_CODE = null;
 	
 	public static final Item RICKROLL_PICKAXE = null;
 	public static final Item RICKROLL_SWORD = null;

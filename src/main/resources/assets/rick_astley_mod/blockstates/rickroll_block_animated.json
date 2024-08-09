@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "rick_astley_mod:rickroll_block_animated"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

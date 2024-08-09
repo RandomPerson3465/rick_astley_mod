@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[{
+			"item": "rick_astley_mod:rickroll"
+		}, {
+			"item": "rick_astley_mod:rickroll_animated"
+		}],
+		{
+			"item": "minecraft:concrete",
+			"data": 0
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 0
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 0
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 0
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 15
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 15
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 15
+		},
+		{
+			"item": "minecraft:concrete",
+			"data": 15
+		}
+	],
+	"result": {
+		"item": "rick_astley_mod:rickroll_qr_code",
+		"count": 4
+	}
+}
