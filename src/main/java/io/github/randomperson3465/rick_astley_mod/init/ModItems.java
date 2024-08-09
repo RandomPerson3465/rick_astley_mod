@@ -18,5 +18,10 @@ public class ModItems {
 	public static final Item RICKROLL_AXE = null;
 	public static final Item RICKROLL_SHOVEL = null;
 	public static final Item RICKROLL_HOE = null;
+	
+	public static final Item RICKROLL_HELMET = null;
+	public static final Item RICKROLL_CHESTPLATE = null;
+	public static final Item RICKROLL_LEGGINGS = null;
+	public static final Item RICKROLL_BOOTS = null;
 
 }

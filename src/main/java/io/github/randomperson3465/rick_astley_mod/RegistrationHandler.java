@@ -6,6 +6,7 @@ import io.github.randomperson3465.rick_astley_mod.util.RegistryUtil;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import io.github.randomperson3465.rick_astley_mod.item.RickrollRecord;
@@ -14,6 +15,7 @@ import io.github.randomperson3465.rick_astley_mod.item.RickrollSword;
 import io.github.randomperson3465.rick_astley_mod.item.RickrollAxe;
 import io.github.randomperson3465.rick_astley_mod.item.RickrollShovel;
 import io.github.randomperson3465.rick_astley_mod.item.RickrollHoe;
+import io.github.randomperson3465.rick_astley_mod.item.RickrollArmor;
 import io.github.randomperson3465.rick_astley_mod.materials.RickrollMaterial;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.event.RegistryEvent.Register;
@@ -37,6 +39,10 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new RickrollAxe(RickrollMaterial.RICKROLL_TOOL, 9.0f, -2.8f), "rickroll_axe").setCreativeTab(RickAstleyMod.TAB),
 				RegistryUtil.setItemName(new RickrollShovel(RickrollMaterial.RICKROLL_TOOL), "rickroll_shovel").setCreativeTab(RickAstleyMod.TAB),
 				RegistryUtil.setItemName(new RickrollHoe(RickrollMaterial.RICKROLL_TOOL), "rickroll_hoe").setCreativeTab(RickAstleyMod.TAB),
+				RegistryUtil.setItemName(new RickrollArmor(RickrollMaterial.RICKROLL_ARMOR, EntityEquipmentSlot.HEAD), "rickroll_helmet").setCreativeTab(RickAstleyMod.TAB),
+				RegistryUtil.setItemName(new RickrollArmor(RickrollMaterial.RICKROLL_ARMOR, EntityEquipmentSlot.CHEST), "rickroll_chestplate").setCreativeTab(RickAstleyMod.TAB),
+				RegistryUtil.setItemName(new RickrollArmor(RickrollMaterial.RICKROLL_ARMOR, EntityEquipmentSlot.LEGS), "rickroll_leggings").setCreativeTab(RickAstleyMod.TAB),
+				RegistryUtil.setItemName(new RickrollArmor(RickrollMaterial.RICKROLL_ARMOR, EntityEquipmentSlot.FEET), "rickroll_boots").setCreativeTab(RickAstleyMod.TAB)
 		};
 		
 		final Item[] itemBlocks = {

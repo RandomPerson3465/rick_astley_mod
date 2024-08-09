@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": {
+			"item": "rick_astley_mod:rickroll_ingot"
+		}
+	},
+	"result": {
+		"item": "rick_astley_mod:rickroll_boots",
+		"count": 1
+	}
+}

@@ -17,7 +17,7 @@ public class ModelRegistrationHandler {
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
 		
-		Item[] itemList = {ModItems.RICKROLL, ModItems.RICKROLL_INGOT, ModItems.RICKROLL_NUGGET, ModItems.RECORD_RICKROLL, ModItems.RICK_ASTLEY, ModItems.RICKROLL_PICKAXE, ModItems.RICKROLL_SWORD, ModItems.RICKROLL_AXE, ModItems.RICKROLL_SHOVEL, ModItems.RICKROLL_HOE};
+		Item[] itemList = {ModItems.RICKROLL, ModItems.RICKROLL_INGOT, ModItems.RICKROLL_NUGGET, ModItems.RECORD_RICKROLL, ModItems.RICK_ASTLEY, ModItems.RICKROLL_PICKAXE, ModItems.RICKROLL_SWORD, ModItems.RICKROLL_AXE, ModItems.RICKROLL_SHOVEL, ModItems.RICKROLL_HOE, ModItems.RICKROLL_HELMET, ModItems.RICKROLL_CHESTPLATE, ModItems.RICKROLL_LEGGINGS, ModItems.RICKROLL_BOOTS};
 		
 		for (Item item: itemList) {
 			registerModel(item, 0);
